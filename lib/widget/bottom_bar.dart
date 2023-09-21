@@ -10,7 +10,7 @@ class Bottombar extends StatefulWidget {
   State<Bottombar> createState() => _BottombarState();
 }
  
-
+ int selectedindex =  0;
  
 
 class _BottombarState extends State<Bottombar> {
@@ -19,7 +19,7 @@ class _BottombarState extends State<Bottombar> {
     final tabs = [const Homepage(),
     const HistoryPage(),
     const moneypage()];
-    int selectedindex =  0;
+   
     
     return Scaffold(
       body: tabs[selectedindex],

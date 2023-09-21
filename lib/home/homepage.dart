@@ -121,7 +121,7 @@ class _HomepageState extends State<Homepage> {
           Icon(Icons.location_on_rounded,color: Colors.red,size: 30,),
           Column(
             children: [
-              Text('Home',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20),),
+              Text('Home',style: TextStyle(fontWeight: FontWeight.bold,fontSize: 20,color: Colors.black),),
               Text('your address ',style: TextStyle(color: Colors.grey),),
             ],
           ),

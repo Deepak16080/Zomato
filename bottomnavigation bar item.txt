@@ -1,0 +1,7 @@
+ bottomNavigationBar: BottomNavigationBar(
+       onTap: (index) => setState(() => selectedindex = index) ,
+       currentIndex: selectedindex,
+      items: const [
+      BottomNavigationBarItem(icon: Icon(Icons.delivery_dining_rounded),label: 'Delivery',),
+      BottomNavigationBarItem(icon: Icon(Icons.rice_bowl_sharp),label: 'History'),
+      BottomNavigationBarItem(icon: Icon(Icons.wallet_outlined),label: 'Money'),],)
